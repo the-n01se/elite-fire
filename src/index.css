@@ -1,8 +1,64 @@
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url('./assets/fonts/LabGrotesque-Bold.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url('./assets/fonts/LabGrotesque-Medium.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url('./assets/fonts/LabGrotesque-Regular.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url('./assets/fonts/LabGrotesque-Light.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LabGrotesque';
+  src: url('./assets/fonts/LabGrotesque-Light.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'LabGrotesque';
+  font-style: normal;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +66,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
 }
